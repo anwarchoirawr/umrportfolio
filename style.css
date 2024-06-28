@@ -89,11 +89,14 @@ body {
     margin-bottom: 20px;
   }
 
+
+
+
   .project-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* height: 100; */
   }
 
   .project {
@@ -132,13 +135,13 @@ body {
     background-color: #0056b3;
   }
 
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     .project-container {
       padding-left: 0;
       align-items: flex-start;
     }
   }
-
+ */
 
   
 
@@ -687,3 +690,18 @@ footer{
         width: 100%;
     }
 } */
+
+
+
+
+/* --------- CSS Global Styles --------- */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Gaya untuk navigasi, footer, dan elemen lainnya */
+/* ... (gaya lainnya) ... */
+
